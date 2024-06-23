@@ -1,0 +1,14 @@
+.icons img{
+    display: inline;
+    width: 80px;
+    padding-top: 10px;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    transition: all 0.5s easy;
+    transform: scale(0.8);
+}
+
+.icons img:hover{
+    filter: grayscale(0%);
+    transform: scale(1);
+}
